@@ -1,5 +1,4 @@
 import { ArticleService } from "./../article.service";
-import { ARTICLES } from "./../mock-articles";
 import { Component, OnInit } from "@angular/core";
 import { Article } from "../article";
 import { Title } from "@angular/platform-browser";

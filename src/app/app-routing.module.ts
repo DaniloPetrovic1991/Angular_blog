@@ -1,3 +1,4 @@
+import { HistoryComponent } from './history/history.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ArticleComponent } from './article/article.component';
 import { AboutComponent } from './about/about.component';
@@ -13,6 +14,14 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'history',
+    component: HistoryComponent
+  },
+  {
+    path: 'home',
+    component: HistoryComponent
   },
   {
     path: '404',

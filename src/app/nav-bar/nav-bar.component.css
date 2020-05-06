@@ -21,7 +21,7 @@
 .nav-item {
   padding: 10px;
   text-decoration: none;
-  color: #6c756c;
+  color: black !important;
 }
 
 .nav-item:visited, .nav-item:active, .nav-item:focus {
