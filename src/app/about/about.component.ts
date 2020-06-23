@@ -9,7 +9,7 @@ import { SharedService } from '../shared.service';
 })
 export class AboutComponent implements OnInit {
 
-  title = "About";
+  title = "About our work";
 
   constructor(
     private titleService: Title,

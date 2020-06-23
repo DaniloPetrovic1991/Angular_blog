@@ -12,16 +12,12 @@ const routes: Routes = [
     component: ArticleListComponent
   },
   {
-    path: 'about',
-    component: AboutComponent
-  },
-  {
     path: 'history',
     component: HistoryComponent
   },
   {
     path: 'home',
-    component: HistoryComponent
+    component: AboutComponent
   },
   {
     path: '404',
